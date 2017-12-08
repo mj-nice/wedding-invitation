@@ -1,0 +1,110 @@
+* {
+	-webkit-animation-duration: 2s!important;
+	-moz-animation-duration: 2s!important;
+	-o-animation-duration: 2s!important;
+	-ms-animation-duration: 2s!important;
+	animation-duration: 2s!important;
+}
+
+body {
+	font-family: 'Catamaran', sans-serif;
+	overflow-x: hidden;
+}
+
+section {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 0;
+}
+
+h2 {
+	font-size: 6rem;
+    font-weight: 800;
+    line-height: 5rem;
+}
+
+h3 {
+	font-size: 5rem;
+}
+
+.table td {
+	text-align: right;
+}
+
+.table th {
+	text-align: left;
+}
+
+td, th {
+	border: 0!important;
+}
+
+.lead {
+	font-weight: bolder;
+}
+
+.handwriting {
+	font-family: 'Alex Brush', cursive;
+	letter-spacing: 5px;
+}
+
+footer {
+	height: 100vh;
+}
+
+/*
+ * Backgrounds
+ */
+.bg {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.bg.light {
+	background-image: url('../images/light-bg.jpg');
+	color: #204659;
+}
+
+.bg.dark {
+	background-image: url('../images/dark-bg.jpg');
+	color: #fff;
+}
+
+.bg.img {
+	background-image: url('../images/footer-bg.jpg');
+	color: #fff;
+}
+
+/*
+ * Helper Classes
+ */
+.font-sm {
+	font-size: 1.2rem;
+}
+
+.font-md {
+	font-size: 1.4rem;
+}
+
+.font-lg {
+	font-size: 2.2rem;
+	line-height: 3rem;
+}
+
+.font-light {
+	font-weight: 300;
+}
+
+/*
+ * Media Queries
+ */
+@media screen and (max-width: 768px) {
+	.text-center-sm {
+		font-size: 20px;
+		text-align: center!important;
+	}
+}
